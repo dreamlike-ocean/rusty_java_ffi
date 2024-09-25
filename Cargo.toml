@@ -1,0 +1,12 @@
+[package]
+name = "dynamic_library"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[lib]
+name = "dynamic_library"
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
